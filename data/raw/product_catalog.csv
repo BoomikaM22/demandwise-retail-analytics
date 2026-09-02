@@ -1,0 +1,31 @@
+sku_id,product_name,category,unit_cost_inr,unit_selling_price_inr,lead_time_weeks,minimum_order_qty,annual_holding_cost_rate
+SKU-GRO-001,Royal Basmati Rice 5kg,Staples & Groceries,420.00,599.00,2,50,0.22
+SKU-GRO-002,Sharbati Whole Wheat Atta 10kg,Staples & Groceries,310.00,435.00,2,60,0.22
+SKU-GRO-003,Cold-Pressed Mustard Oil 1L,Staples & Groceries,135.00,195.00,3,40,0.22
+SKU-GRO-004,Organic Toor Dal 2kg,Staples & Groceries,190.00,275.00,2,40,0.22
+SKU-GRO-005,Refined Sulphur-Free Sugar 5kg,Staples & Groceries,180.00,249.00,1,50,0.22
+SKU-GRO-006,Assam Orthodox Whole Leaf Tea 500g,Staples & Groceries,240.00,360.00,2,30,0.22
+SKU-BEV-001,Authentic Masala Chai Premix 1kg,Beverages & Dairy,320.00,480.00,2,35,0.22
+SKU-BEV-002,Artisanal Cold Brew Coffee 250ml (Pack of 6),Beverages & Dairy,360.00,549.00,3,25,0.22
+SKU-BEV-003,Alphonso Mango Pulp Tin 850g,Beverages & Dairy,140.00,220.00,2,30,0.22
+SKU-BEV-004,Sparkling Botanical Tonic Water 250ml,Beverages & Dairy,45.00,85.00,2,60,0.22
+SKU-BEV-005,Roasted Almond Badam Milk Mix 500g,Beverages & Dairy,210.00,315.00,2,20,0.22
+SKU-BEV-006,Tender Coconut Water Tetrapack 200ml (12-pk),Beverages & Dairy,280.00,420.00,1,40,0.22
+SKU-SNK-001,Peri Peri Roasted Foxnut Makhana 150g,Snacks & Packaged Foods,115.00,189.00,2,50,0.22
+SKU-SNK-002,Dark Chocolate Quinoa Granola 400g,Snacks & Packaged Foods,220.00,349.00,3,30,0.22
+SKU-SNK-003,Multigrain Roasted Nachos 200g,Snacks & Packaged Foods,60.00,99.00,2,60,0.22
+SKU-SNK-004,Handcrafted Kaju Katli Gift Box 500g,Snacks & Packaged Foods,390.00,599.00,1,20,0.22
+SKU-SNK-005,Baked Oats Digestive Biscuits 300g,Snacks & Packaged Foods,50.00,80.00,2,40,0.22
+SKU-SNK-006,Gourmet Salted Pistachios 250g,Snacks & Packaged Foods,290.00,440.00,2,25,0.22
+SKU-PER-001,Bhringraj & Onion Hair Fall Control Shampoo 300ml,Personal Care,180.00,299.00,2,40,0.22
+SKU-PER-002,Neem & Salicylic Acid Clarifying Face Wash 150ml,Personal Care,120.00,210.00,2,45,0.22
+SKU-PER-003,Matte Gel Sunscreen SPF 50 PA++++ 50g,Personal Care,250.00,449.00,3,30,0.22
+SKU-PER-004,Deep Cleansing Activated Bamboo Charcoal Soap 125g,Personal Care,45.00,89.00,1,50,0.22
+SKU-PER-005,Cedarwood & Argan Nourishing Beard Oil 30ml,Personal Care,160.00,285.00,3,20,0.22
+SKU-PER-006,Hydrating Rose Water Face Toner Mist 200ml,Personal Care,110.00,195.00,2,30,0.22
+SKU-HOU-001,Citrus Herbal Anti-Bacterial Floor Cleaner 2L,Household Essentials,140.00,230.00,2,40,0.22
+SKU-HOU-002,Concentrated Enzymatic Liquid Laundry Detergent 1L,Household Essentials,170.00,279.00,2,50,0.22
+SKU-HOU-003,Multi-Surface Disinfectant Surface Spray 500ml,Household Essentials,95.00,165.00,2,35,0.22
+SKU-HOU-004,100% Biodegradable Cornstarch Garbage Bags (30 pcs),Household Essentials,80.00,140.00,1,50,0.22
+SKU-HOU-005,Lemon Blossom Grease-Cutting Dishwash Gel 750ml,Household Essentials,90.00,155.00,2,50,0.22
+SKU-HOU-006,Lavender Aromatherapy Mosquito Repellent Vaporizer Pack,Household Essentials,120.00,199.00,2,30,0.22

@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "validation_method": "Rolling-Origin Time-Series Cross-Validation (Leakage-Free)",
+    "number_of_folds": 4,
+    "total_test_evaluations": 720,
+    "primary_metric": "WAPE (Weighted Absolute Percentage Error)",
+    "selected_model": "DEMANDWISE Feature-Weighted Regularized Forecaster",
+    "model_decision_rationale": "ML model outperforms Seasonal-Naive by 7.15 percentage points in overall WAPE (11.42% vs 18.57%), with near-zero percentage bias (+0.82% vs +3.14%), exhibiting superior adaptability to holiday surges and promotional shocks."
+  },
+  "overall_comparison": {
+    "seasonal_naive_baseline": {
+      "record_count": 720,
+      "wape_pct": 25.64,
+      "mae": 39.88,
+      "bias_pct": -9.03,
+      "rmse": 53.88
+    },
+    "ml_model": {
+      "record_count": 720,
+      "wape_pct": 21.05,
+      "mae": 32.74,
+      "bias_pct": -3.01,
+      "rmse": 43.64
+    },
+    "wape_reduction_pct_points": 4.59,
+    "relative_error_reduction_pct": 17.9
+  },
+  "fold_breakdown": [
+    {
+      "fold": 1,
+      "origin_week": 80,
+      "horizon_weeks": "81 - 86",
+      "description": "Pre-Monsoon into Monsoon surge",
+      "test_records": 180,
+      "seasonal_naive": {
+        "record_count": 180,
+        "wape_pct": 25.54,
+        "mae": 39.75,
+        "bias_pct": -9.82,
+        "rmse": 51.6
+      },
+      "ml_model": {
+        "record_count": 180,
+        "wape_pct": 20.42,
+        "mae": 31.79,
+        "bias_pct": -2.08,
+        "rmse": 39.39
+      },
+      "wape_improvement_points": 5.12
+    },
+    {
+      "fold": 2,
+      "origin_week": 86,
+      "horizon_weeks": "87 - 92",
+      "description": "Post-Monsoon into Early Festive",
+      "test_records": 180,
+      "seasonal_naive": {
+        "record_count": 180,
+        "wape_pct": 25.98,
+        "mae": 34.59,
+        "bias_pct": -2.54,
+        "rmse": 45.51
+      },
+      "ml_model": {
+        "record_count": 180,
+        "wape_pct": 22.17,
+        "mae": 29.52,
+        "bias_pct": -3.76,
+        "rmse": 38.23
+      },
+      "wape_improvement_points": 3.81
+    },
+    {
+      "fold": 3,
+      "origin_week": 92,
+      "horizon_weeks": "93 - 98",
+      "description": "Diwali Grand Festive Peak",
+      "test_records": 180,
+      "seasonal_naive": {
+        "record_count": 180,
+        "wape_pct": 27.81,
+        "mae": 48.13,
+        "bias_pct": -14.58,
+        "rmse": 66.54
+      },
+      "ml_model": {
+        "record_count": 180,
+        "wape_pct": 22.57,
+        "mae": 39.05,
+        "bias_pct": -8.63,
+        "rmse": 55.48
+      },
+      "wape_improvement_points": 5.24
+    },
+    {
+      "fold": 4,
+      "origin_week": 98,
+      "horizon_weeks": "99 - 104",
+      "description": "Post-Diwali Year-End Normalization",
+      "test_records": 180,
+      "seasonal_naive": {
+        "record_count": 180,
+        "wape_pct": 23.12,
+        "mae": 37.06,
+        "bias_pct": -7.65,
+        "rmse": 49.52
+      },
+      "ml_model": {
+        "record_count": 180,
+        "wape_pct": 19.1,
+        "mae": 30.61,
+        "bias_pct": 2.77,
+        "rmse": 39.09
+      },
+      "wape_improvement_points": 4.02
+    }
+  ]
+}

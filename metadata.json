@@ -1,0 +1,6 @@
+{
+  "name": "DEMANDWISE – Retail Demand & Inventory Analytics",
+  "description": "Enterprise-grade retail demand forecasting and inventory risk analytics platform with weekly SKU forecasting, seasonal-naive baselines, inventory risk scoring, and rupee business impact calculation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1496 @@
+{
+  "dataset_summary": {
+    "total_records": 3120,
+    "sku_count": 30,
+    "categories_count": 5,
+    "total_units_sold": 466026,
+    "total_revenue_inr": 121977844.55,
+    "date_range_weeks": "Week 1 to Week 104 (2 Full Years)",
+    "average_weekly_revenue_inr": 1172863.89,
+    "promotional_lift_pct": 30.2
+  },
+  "category_summary": [
+    {
+      "category": "Staples & Groceries",
+      "total_revenue_inr": 38410402.9,
+      "revenue_share_pct": 31.49,
+      "total_units_sold": 110868,
+      "sku_count": 6,
+      "avg_units_per_sku": 18478.0
+    },
+    {
+      "category": "Beverages & Dairy",
+      "total_revenue_inr": 25802981.8,
+      "revenue_share_pct": 21.15,
+      "total_units_sold": 80522,
+      "sku_count": 6,
+      "avg_units_per_sku": 13420.3
+    },
+    {
+      "category": "Household Essentials",
+      "total_revenue_inr": 20647699.0,
+      "revenue_share_pct": 16.93,
+      "total_units_sold": 108197,
+      "sku_count": 6,
+      "avg_units_per_sku": 18032.8
+    },
+    {
+      "category": "Personal Care",
+      "total_revenue_inr": 18932223.6,
+      "revenue_share_pct": 15.52,
+      "total_units_sold": 79757,
+      "sku_count": 6,
+      "avg_units_per_sku": 13292.8
+    },
+    {
+      "category": "Snacks & Packaged Foods",
+      "total_revenue_inr": 18184537.25,
+      "revenue_share_pct": 14.91,
+      "total_units_sold": 86682,
+      "sku_count": 6,
+      "avg_units_per_sku": 14447.0
+    }
+  ],
+  "top_5_movers": [
+    {
+      "sku_id": "SKU-GRO-002",
+      "product_name": "Sharbati Whole Wheat Atta 10kg",
+      "category": "Staples & Groceries",
+      "total_units_sold": 26280,
+      "avg_weekly_demand": 252.7,
+      "total_revenue_inr": 11140328.25,
+      "demand_std": 53.2,
+      "demand_cv": 0.21,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 1250,
+      "on_order_inventory": 200,
+      "current_wos": 4.9,
+      "historical_stockout_days": 3,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-003",
+      "product_name": "Multigrain Roasted Nachos 200g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 23029,
+      "avg_weekly_demand": 221.4,
+      "total_revenue_inr": 2217382.2,
+      "demand_std": 64.4,
+      "demand_cv": 0.291,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 2400,
+      "on_order_inventory": 100,
+      "current_wos": 10.8,
+      "historical_stockout_days": 0,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-HOU-002",
+      "product_name": "Concentrated Enzymatic Liquid Laundry Detergent 1L",
+      "category": "Household Essentials",
+      "total_units_sold": 22461,
+      "avg_weekly_demand": 216.0,
+      "total_revenue_inr": 6109890.75,
+      "demand_std": 48.1,
+      "demand_cv": 0.223,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 115,
+      "on_order_inventory": 0,
+      "current_wos": 0.5,
+      "historical_stockout_days": 0,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-HOU-005",
+      "product_name": "Lemon Blossom Grease-Cutting Dishwash Gel 750ml",
+      "category": "Household Essentials",
+      "total_units_sold": 21941,
+      "avg_weekly_demand": 211.0,
+      "total_revenue_inr": 3307994.5,
+      "demand_std": 47.3,
+      "demand_cv": 0.224,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 980,
+      "on_order_inventory": 120,
+      "current_wos": 4.6,
+      "historical_stockout_days": 4,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-001",
+      "product_name": "Peri Peri Roasted Foxnut Makhana 150g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 20689,
+      "avg_weekly_demand": 198.9,
+      "total_revenue_inr": 3808642.95,
+      "demand_std": 64.3,
+      "demand_cv": 0.323,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 85,
+      "on_order_inventory": 50,
+      "current_wos": 0.4,
+      "historical_stockout_days": 0,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    }
+  ],
+  "slow_5_movers": [
+    {
+      "sku_id": "SKU-PER-005",
+      "product_name": "Cedarwood & Argan Nourishing Beard Oil 30ml",
+      "category": "Personal Care",
+      "total_units_sold": 4738,
+      "avg_weekly_demand": 45.6,
+      "total_revenue_inr": 1320447.75,
+      "demand_std": 21.4,
+      "demand_cv": 0.471,
+      "volatility_class": "High",
+      "on_hand_inventory": 820,
+      "on_order_inventory": 0,
+      "current_wos": 18.0,
+      "historical_stockout_days": 1,
+      "is_slow_mover": true,
+      "is_dead_stock_risk": true
+    },
+    {
+      "sku_id": "SKU-SNK-004",
+      "product_name": "Handcrafted Kaju Katli Gift Box 500g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 5939,
+      "avg_weekly_demand": 57.1,
+      "total_revenue_inr": 3462399.7,
+      "demand_std": 36.0,
+      "demand_cv": 0.631,
+      "volatility_class": "High",
+      "on_hand_inventory": 120,
+      "on_order_inventory": 50,
+      "current_wos": 2.1,
+      "historical_stockout_days": 4,
+      "is_slow_mover": true,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-006",
+      "product_name": "Gourmet Salted Pistachios 250g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 7825,
+      "avg_weekly_demand": 75.2,
+      "total_revenue_inr": 3342218.0,
+      "demand_std": 28.1,
+      "demand_cv": 0.373,
+      "volatility_class": "High",
+      "on_hand_inventory": 380,
+      "on_order_inventory": 50,
+      "current_wos": 5.1,
+      "historical_stockout_days": 7,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-BEV-005",
+      "product_name": "Roasted Almond Badam Milk Mix 500g",
+      "category": "Beverages & Dairy",
+      "total_units_sold": 9000,
+      "avg_weekly_demand": 86.5,
+      "total_revenue_inr": 2754675.0,
+      "demand_std": 32.1,
+      "demand_cv": 0.371,
+      "volatility_class": "High",
+      "on_hand_inventory": 450,
+      "on_order_inventory": 0,
+      "current_wos": 5.2,
+      "historical_stockout_days": 1,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-BEV-002",
+      "product_name": "Artisanal Cold Brew Coffee 250ml (Pack of 6)",
+      "category": "Beverages & Dairy",
+      "total_units_sold": 10188,
+      "avg_weekly_demand": 98.0,
+      "total_revenue_inr": 5447699.55,
+      "demand_std": 40.1,
+      "demand_cv": 0.409,
+      "volatility_class": "High",
+      "on_hand_inventory": 40,
+      "on_order_inventory": 0,
+      "current_wos": 0.4,
+      "historical_stockout_days": 6,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    }
+  ],
+  "sku_inventory_profile": [
+    {
+      "sku_id": "SKU-GRO-002",
+      "product_name": "Sharbati Whole Wheat Atta 10kg",
+      "category": "Staples & Groceries",
+      "total_units_sold": 26280,
+      "avg_weekly_demand": 252.7,
+      "total_revenue_inr": 11140328.25,
+      "demand_std": 53.2,
+      "demand_cv": 0.21,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 1250,
+      "on_order_inventory": 200,
+      "current_wos": 4.9,
+      "historical_stockout_days": 3,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-003",
+      "product_name": "Multigrain Roasted Nachos 200g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 23029,
+      "avg_weekly_demand": 221.4,
+      "total_revenue_inr": 2217382.2,
+      "demand_std": 64.4,
+      "demand_cv": 0.291,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 2400,
+      "on_order_inventory": 100,
+      "current_wos": 10.8,
+      "historical_stockout_days": 0,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-HOU-002",
+      "product_name": "Concentrated Enzymatic Liquid Laundry Detergent 1L",
+      "category": "Household Essentials",
+      "total_units_sold": 22461,
+      "avg_weekly_demand": 216.0,
+      "total_revenue_inr": 6109890.75,
+      "demand_std": 48.1,
+      "demand_cv": 0.223,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 115,
+      "on_order_inventory": 0,
+      "current_wos": 0.5,
+      "historical_stockout_days": 0,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-HOU-005",
+      "product_name": "Lemon Blossom Grease-Cutting Dishwash Gel 750ml",
+      "category": "Household Essentials",
+      "total_units_sold": 21941,
+      "avg_weekly_demand": 211.0,
+      "total_revenue_inr": 3307994.5,
+      "demand_std": 47.3,
+      "demand_cv": 0.224,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 980,
+      "on_order_inventory": 120,
+      "current_wos": 4.6,
+      "historical_stockout_days": 4,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-001",
+      "product_name": "Peri Peri Roasted Foxnut Makhana 150g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 20689,
+      "avg_weekly_demand": 198.9,
+      "total_revenue_inr": 3808642.95,
+      "demand_std": 64.3,
+      "demand_cv": 0.323,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 85,
+      "on_order_inventory": 50,
+      "current_wos": 0.4,
+      "historical_stockout_days": 0,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-GRO-005",
+      "product_name": "Refined Sulphur-Free Sugar 5kg",
+      "category": "Staples & Groceries",
+      "total_units_sold": 20674,
+      "avg_weekly_demand": 198.8,
+      "total_revenue_inr": 5016652.8,
+      "demand_std": 39.3,
+      "demand_cv": 0.198,
+      "volatility_class": "Low",
+      "on_hand_inventory": 2600,
+      "on_order_inventory": 0,
+      "current_wos": 13.1,
+      "historical_stockout_days": 10,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": true
+    },
+    {
+      "sku_id": "SKU-HOU-004",
+      "product_name": "100% Biodegradable Cornstarch Garbage Bags (30 pcs)",
+      "category": "Household Essentials",
+      "total_units_sold": 20494,
+      "avg_weekly_demand": 197.1,
+      "total_revenue_inr": 2788037.0,
+      "demand_std": 53.5,
+      "demand_cv": 0.272,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 860,
+      "on_order_inventory": 0,
+      "current_wos": 4.4,
+      "historical_stockout_days": 1,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-BEV-004",
+      "product_name": "Sparkling Botanical Tonic Water 250ml",
+      "category": "Beverages & Dairy",
+      "total_units_sold": 19556,
+      "avg_weekly_demand": 188.0,
+      "total_revenue_inr": 1621396.25,
+      "demand_std": 68.2,
+      "demand_cv": 0.363,
+      "volatility_class": "High",
+      "on_hand_inventory": 75,
+      "on_order_inventory": 0,
+      "current_wos": 0.4,
+      "historical_stockout_days": 3,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-GRO-003",
+      "product_name": "Cold-Pressed Mustard Oil 1L",
+      "category": "Staples & Groceries",
+      "total_units_sold": 18854,
+      "avg_weekly_demand": 181.3,
+      "total_revenue_inr": 3580794.75,
+      "demand_std": 44.8,
+      "demand_cv": 0.247,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 110,
+      "on_order_inventory": 50,
+      "current_wos": 0.6,
+      "historical_stockout_days": 8,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-PER-004",
+      "product_name": "Deep Cleansing Activated Bamboo Charcoal Soap 125g",
+      "category": "Personal Care",
+      "total_units_sold": 18016,
+      "avg_weekly_demand": 173.2,
+      "total_revenue_inr": 1558888.4,
+      "demand_std": 42.9,
+      "demand_cv": 0.248,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 1950,
+      "on_order_inventory": 0,
+      "current_wos": 11.3,
+      "historical_stockout_days": 0,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-GRO-001",
+      "product_name": "Royal Basmati Rice 5kg",
+      "category": "Staples & Groceries",
+      "total_units_sold": 17924,
+      "avg_weekly_demand": 172.3,
+      "total_revenue_inr": 10446350.35,
+      "demand_std": 39.9,
+      "demand_cv": 0.232,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 95,
+      "on_order_inventory": 0,
+      "current_wos": 0.6,
+      "historical_stockout_days": 3,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-PER-002",
+      "product_name": "Neem & Salicylic Acid Clarifying Face Wash 150ml",
+      "category": "Personal Care",
+      "total_units_sold": 17489,
+      "avg_weekly_demand": 168.2,
+      "total_revenue_inr": 3582064.5,
+      "demand_std": 47.8,
+      "demand_cv": 0.284,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 80,
+      "on_order_inventory": 0,
+      "current_wos": 0.5,
+      "historical_stockout_days": 7,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-005",
+      "product_name": "Baked Oats Digestive Biscuits 300g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 17407,
+      "avg_weekly_demand": 167.4,
+      "total_revenue_inr": 1355192.0,
+      "demand_std": 38.7,
+      "demand_cv": 0.231,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 820,
+      "on_order_inventory": 0,
+      "current_wos": 4.9,
+      "historical_stockout_days": 2,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-HOU-001",
+      "product_name": "Citrus Herbal Anti-Bacterial Floor Cleaner 2L",
+      "category": "Household Essentials",
+      "total_units_sold": 16724,
+      "avg_weekly_demand": 160.8,
+      "total_revenue_inr": 3751921.0,
+      "demand_std": 36.8,
+      "demand_cv": 0.229,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 790,
+      "on_order_inventory": 100,
+      "current_wos": 4.9,
+      "historical_stockout_days": 2,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-BEV-006",
+      "product_name": "Tender Coconut Water Tetrapack 200ml (12-pk)",
+      "category": "Beverages & Dairy",
+      "total_units_sold": 15943,
+      "avg_weekly_demand": 153.3,
+      "total_revenue_inr": 6517707.0,
+      "demand_std": 52.3,
+      "demand_cv": 0.341,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 680,
+      "on_order_inventory": 100,
+      "current_wos": 4.4,
+      "historical_stockout_days": 2,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-BEV-001",
+      "product_name": "Authentic Masala Chai Premix 1kg",
+      "category": "Beverages & Dairy",
+      "total_units_sold": 15615,
+      "avg_weekly_demand": 150.1,
+      "total_revenue_inr": 7281216.0,
+      "demand_std": 49.1,
+      "demand_cv": 0.327,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 270,
+      "on_order_inventory": 0,
+      "current_wos": 1.8,
+      "historical_stockout_days": 6,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-GRO-004",
+      "product_name": "Organic Toor Dal 2kg",
+      "category": "Staples & Groceries",
+      "total_units_sold": 15444,
+      "avg_weekly_demand": 148.5,
+      "total_revenue_inr": 4129908.75,
+      "demand_std": 33.3,
+      "demand_cv": 0.224,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 720,
+      "on_order_inventory": 100,
+      "current_wos": 4.8,
+      "historical_stockout_days": 3,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-PER-001",
+      "product_name": "Bhringraj & Onion Hair Fall Control Shampoo 300ml",
+      "category": "Personal Care",
+      "total_units_sold": 14816,
+      "avg_weekly_demand": 142.5,
+      "total_revenue_inr": 4299694.75,
+      "demand_std": 50.3,
+      "demand_cv": 0.353,
+      "volatility_class": "High",
+      "on_hand_inventory": 620,
+      "on_order_inventory": 80,
+      "current_wos": 4.4,
+      "historical_stockout_days": 0,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-PER-003",
+      "product_name": "Matte Gel Sunscreen SPF 50 PA++++ 50g",
+      "category": "Personal Care",
+      "total_units_sold": 14079,
+      "avg_weekly_demand": 135.4,
+      "total_revenue_inr": 6156261.45,
+      "demand_std": 55.0,
+      "demand_cv": 0.406,
+      "volatility_class": "High",
+      "on_hand_inventory": 250,
+      "on_order_inventory": 0,
+      "current_wos": 1.8,
+      "historical_stockout_days": 12,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-HOU-003",
+      "product_name": "Multi-Surface Disinfectant Surface Spray 500ml",
+      "category": "Household Essentials",
+      "total_units_sold": 13524,
+      "avg_weekly_demand": 130.0,
+      "total_revenue_inr": 2167530.75,
+      "demand_std": 39.4,
+      "demand_cv": 0.303,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 1700,
+      "on_order_inventory": 0,
+      "current_wos": 13.1,
+      "historical_stockout_days": 2,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": true
+    },
+    {
+      "sku_id": "SKU-HOU-006",
+      "product_name": "Lavender Aromatherapy Mosquito Repellent Vaporizer Pack",
+      "category": "Household Essentials",
+      "total_units_sold": 13053,
+      "avg_weekly_demand": 125.5,
+      "total_revenue_inr": 2522325.0,
+      "demand_std": 49.9,
+      "demand_cv": 0.397,
+      "volatility_class": "High",
+      "on_hand_inventory": 1500,
+      "on_order_inventory": 0,
+      "current_wos": 12.0,
+      "historical_stockout_days": 1,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-002",
+      "product_name": "Dark Chocolate Quinoa Granola 400g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 11793,
+      "avg_weekly_demand": 113.4,
+      "total_revenue_inr": 3998702.4,
+      "demand_std": 42.9,
+      "demand_cv": 0.378,
+      "volatility_class": "High",
+      "on_hand_inventory": 240,
+      "on_order_inventory": 0,
+      "current_wos": 2.1,
+      "historical_stockout_days": 4,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-GRO-006",
+      "product_name": "Assam Orthodox Whole Leaf Tea 500g",
+      "category": "Staples & Groceries",
+      "total_units_sold": 11692,
+      "avg_weekly_demand": 112.4,
+      "total_revenue_inr": 4096368.0,
+      "demand_std": 30.8,
+      "demand_cv": 0.274,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 260,
+      "on_order_inventory": 30,
+      "current_wos": 2.3,
+      "historical_stockout_days": 1,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-PER-006",
+      "product_name": "Hydrating Rose Water Face Toner Mist 200ml",
+      "category": "Personal Care",
+      "total_units_sold": 10619,
+      "avg_weekly_demand": 102.1,
+      "total_revenue_inr": 2014866.75,
+      "demand_std": 31.5,
+      "demand_cv": 0.308,
+      "volatility_class": "Medium",
+      "on_hand_inventory": 210,
+      "on_order_inventory": 0,
+      "current_wos": 2.1,
+      "historical_stockout_days": 13,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-BEV-003",
+      "product_name": "Alphonso Mango Pulp Tin 850g",
+      "category": "Beverages & Dairy",
+      "total_units_sold": 10220,
+      "avg_weekly_demand": 98.3,
+      "total_revenue_inr": 2180288.0,
+      "demand_std": 49.4,
+      "demand_cv": 0.502,
+      "volatility_class": "High",
+      "on_hand_inventory": 1400,
+      "on_order_inventory": 0,
+      "current_wos": 14.2,
+      "historical_stockout_days": 2,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": true
+    },
+    {
+      "sku_id": "SKU-BEV-002",
+      "product_name": "Artisanal Cold Brew Coffee 250ml (Pack of 6)",
+      "category": "Beverages & Dairy",
+      "total_units_sold": 10188,
+      "avg_weekly_demand": 98.0,
+      "total_revenue_inr": 5447699.55,
+      "demand_std": 40.1,
+      "demand_cv": 0.409,
+      "volatility_class": "High",
+      "on_hand_inventory": 40,
+      "on_order_inventory": 0,
+      "current_wos": 0.4,
+      "historical_stockout_days": 6,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-BEV-005",
+      "product_name": "Roasted Almond Badam Milk Mix 500g",
+      "category": "Beverages & Dairy",
+      "total_units_sold": 9000,
+      "avg_weekly_demand": 86.5,
+      "total_revenue_inr": 2754675.0,
+      "demand_std": 32.1,
+      "demand_cv": 0.371,
+      "volatility_class": "High",
+      "on_hand_inventory": 450,
+      "on_order_inventory": 0,
+      "current_wos": 5.2,
+      "historical_stockout_days": 1,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-006",
+      "product_name": "Gourmet Salted Pistachios 250g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 7825,
+      "avg_weekly_demand": 75.2,
+      "total_revenue_inr": 3342218.0,
+      "demand_std": 28.1,
+      "demand_cv": 0.373,
+      "volatility_class": "High",
+      "on_hand_inventory": 380,
+      "on_order_inventory": 50,
+      "current_wos": 5.1,
+      "historical_stockout_days": 7,
+      "is_slow_mover": false,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-SNK-004",
+      "product_name": "Handcrafted Kaju Katli Gift Box 500g",
+      "category": "Snacks & Packaged Foods",
+      "total_units_sold": 5939,
+      "avg_weekly_demand": 57.1,
+      "total_revenue_inr": 3462399.7,
+      "demand_std": 36.0,
+      "demand_cv": 0.631,
+      "volatility_class": "High",
+      "on_hand_inventory": 120,
+      "on_order_inventory": 50,
+      "current_wos": 2.1,
+      "historical_stockout_days": 4,
+      "is_slow_mover": true,
+      "is_dead_stock_risk": false
+    },
+    {
+      "sku_id": "SKU-PER-005",
+      "product_name": "Cedarwood & Argan Nourishing Beard Oil 30ml",
+      "category": "Personal Care",
+      "total_units_sold": 4738,
+      "avg_weekly_demand": 45.6,
+      "total_revenue_inr": 1320447.75,
+      "demand_std": 21.4,
+      "demand_cv": 0.471,
+      "volatility_class": "High",
+      "on_hand_inventory": 820,
+      "on_order_inventory": 0,
+      "current_wos": 18.0,
+      "historical_stockout_days": 1,
+      "is_slow_mover": true,
+      "is_dead_stock_risk": true
+    }
+  ],
+  "weekly_trend": [
+    {
+      "week_num": 1,
+      "revenue_inr": 930597.5,
+      "units_demanded": 3639,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 2,
+      "revenue_inr": 1012736.5,
+      "units_demanded": 3960,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 3,
+      "revenue_inr": 1221498.5,
+      "units_demanded": 4476,
+      "is_holiday_week": 1,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 4,
+      "revenue_inr": 1051447.55,
+      "units_demanded": 4155,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 5,
+      "revenue_inr": 1071619.85,
+      "units_demanded": 4106,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 6,
+      "revenue_inr": 1025200.45,
+      "units_demanded": 3999,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 7,
+      "revenue_inr": 1071716.55,
+      "units_demanded": 4025,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 8,
+      "revenue_inr": 1040133.5,
+      "units_demanded": 3894,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 9,
+      "revenue_inr": 1050182.75,
+      "units_demanded": 4066,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 10,
+      "revenue_inr": 1127422.35,
+      "units_demanded": 4233,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 11,
+      "revenue_inr": 1176122.2,
+      "units_demanded": 4643,
+      "is_holiday_week": 1,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 12,
+      "revenue_inr": 1045739.75,
+      "units_demanded": 4146,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 13,
+      "revenue_inr": 1155452.8,
+      "units_demanded": 4219,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 14,
+      "revenue_inr": 1203532.7,
+      "units_demanded": 4406,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 15,
+      "revenue_inr": 1232643.5,
+      "units_demanded": 4630,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 16,
+      "revenue_inr": 1029079.1,
+      "units_demanded": 3836,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 17,
+      "revenue_inr": 1223252.85,
+      "units_demanded": 4669,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 18,
+      "revenue_inr": 1370884.0,
+      "units_demanded": 5151,
+      "is_holiday_week": 1,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 19,
+      "revenue_inr": 1131392.45,
+      "units_demanded": 4344,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 20,
+      "revenue_inr": 1182932.05,
+      "units_demanded": 4502,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 21,
+      "revenue_inr": 1182145.65,
+      "units_demanded": 4391,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 22,
+      "revenue_inr": 1092953.5,
+      "units_demanded": 4250,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 23,
+      "revenue_inr": 1150470.95,
+      "units_demanded": 4352,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 24,
+      "revenue_inr": 1116690.6,
+      "units_demanded": 4106,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 25,
+      "revenue_inr": 1030560.85,
+      "units_demanded": 4047,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 26,
+      "revenue_inr": 1034094.8,
+      "units_demanded": 3988,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 27,
+      "revenue_inr": 1035800.7,
+      "units_demanded": 3895,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 28,
+      "revenue_inr": 1036756.0,
+      "units_demanded": 3991,
+      "is_holiday_week": 1,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 29,
+      "revenue_inr": 1050872.5,
+      "units_demanded": 4231,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 30,
+      "revenue_inr": 974262.35,
+      "units_demanded": 3832,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 31,
+      "revenue_inr": 1005550.05,
+      "units_demanded": 3986,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 32,
+      "revenue_inr": 1038443.75,
+      "units_demanded": 4048,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 33,
+      "revenue_inr": 1221041.5,
+      "units_demanded": 4714,
+      "is_holiday_week": 1,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 34,
+      "revenue_inr": 920783.55,
+      "units_demanded": 3557,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 35,
+      "revenue_inr": 932271.55,
+      "units_demanded": 3650,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 36,
+      "revenue_inr": 958231.5,
+      "units_demanded": 3504,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 37,
+      "revenue_inr": 931632.25,
+      "units_demanded": 3687,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 38,
+      "revenue_inr": 976476.85,
+      "units_demanded": 3678,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 39,
+      "revenue_inr": 913398.4,
+      "units_demanded": 3661,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 40,
+      "revenue_inr": 957239.45,
+      "units_demanded": 3649,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 41,
+      "revenue_inr": 1300324.5,
+      "units_demanded": 4902,
+      "is_holiday_week": 1,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 42,
+      "revenue_inr": 1026380.85,
+      "units_demanded": 3910,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 43,
+      "revenue_inr": 1023553.75,
+      "units_demanded": 4019,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 44,
+      "revenue_inr": 1698718.35,
+      "units_demanded": 6651,
+      "is_holiday_week": 1,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 45,
+      "revenue_inr": 1016893.5,
+      "units_demanded": 3870,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 46,
+      "revenue_inr": 1035863.05,
+      "units_demanded": 4006,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 47,
+      "revenue_inr": 1045334.4,
+      "units_demanded": 3977,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 48,
+      "revenue_inr": 1094691.1,
+      "units_demanded": 4106,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 49,
+      "revenue_inr": 1027077.05,
+      "units_demanded": 3826,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 50,
+      "revenue_inr": 1070063.25,
+      "units_demanded": 4058,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 51,
+      "revenue_inr": 1315947.3,
+      "units_demanded": 5180,
+      "is_holiday_week": 1,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 52,
+      "revenue_inr": 1048288.7,
+      "units_demanded": 3952,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 53,
+      "revenue_inr": 1111504.3,
+      "units_demanded": 4370,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 54,
+      "revenue_inr": 1185604.55,
+      "units_demanded": 4462,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 55,
+      "revenue_inr": 1356031.9,
+      "units_demanded": 5350,
+      "is_holiday_week": 1,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 56,
+      "revenue_inr": 1192172.1,
+      "units_demanded": 4406,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 57,
+      "revenue_inr": 1189935.5,
+      "units_demanded": 4550,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 58,
+      "revenue_inr": 1311591.5,
+      "units_demanded": 4893,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 59,
+      "revenue_inr": 1274490.3,
+      "units_demanded": 4816,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 60,
+      "revenue_inr": 1236185.05,
+      "units_demanded": 4703,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 61,
+      "revenue_inr": 1203023.55,
+      "units_demanded": 4736,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 62,
+      "revenue_inr": 1224322.45,
+      "units_demanded": 4723,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 63,
+      "revenue_inr": 1439760.05,
+      "units_demanded": 5497,
+      "is_holiday_week": 1,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 64,
+      "revenue_inr": 1217086.25,
+      "units_demanded": 4866,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 65,
+      "revenue_inr": 1210618.8,
+      "units_demanded": 4688,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 66,
+      "revenue_inr": 1397636.2,
+      "units_demanded": 5246,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 67,
+      "revenue_inr": 1270462.15,
+      "units_demanded": 5135,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 68,
+      "revenue_inr": 1307813.95,
+      "units_demanded": 5083,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 69,
+      "revenue_inr": 1367806.9,
+      "units_demanded": 5214,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 70,
+      "revenue_inr": 1615850.65,
+      "units_demanded": 6269,
+      "is_holiday_week": 1,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 71,
+      "revenue_inr": 1291619.75,
+      "units_demanded": 4911,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 72,
+      "revenue_inr": 1348045.8,
+      "units_demanded": 4930,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 73,
+      "revenue_inr": 1322185.05,
+      "units_demanded": 5015,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 74,
+      "revenue_inr": 1285385.0,
+      "units_demanded": 4956,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 75,
+      "revenue_inr": 1376476.85,
+      "units_demanded": 5179,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 76,
+      "revenue_inr": 1232631.75,
+      "units_demanded": 4630,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 77,
+      "revenue_inr": 1281277.4,
+      "units_demanded": 4685,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 78,
+      "revenue_inr": 1223366.75,
+      "units_demanded": 4736,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 79,
+      "revenue_inr": 1164309.65,
+      "units_demanded": 4469,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 80,
+      "revenue_inr": 1260742.05,
+      "units_demanded": 4750,
+      "is_holiday_week": 1,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 81,
+      "revenue_inr": 1191232.7,
+      "units_demanded": 4767,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 82,
+      "revenue_inr": 1223346.0,
+      "units_demanded": 4625,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 83,
+      "revenue_inr": 1140200.75,
+      "units_demanded": 4253,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 84,
+      "revenue_inr": 1097504.9,
+      "units_demanded": 4163,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 85,
+      "revenue_inr": 1535875.75,
+      "units_demanded": 5810,
+      "is_holiday_week": 1,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 86,
+      "revenue_inr": 1079496.95,
+      "units_demanded": 4400,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 87,
+      "revenue_inr": 1018147.95,
+      "units_demanded": 3848,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 88,
+      "revenue_inr": 1014720.25,
+      "units_demanded": 3883,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 89,
+      "revenue_inr": 1063274.95,
+      "units_demanded": 4014,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 90,
+      "revenue_inr": 1034555.45,
+      "units_demanded": 3853,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 91,
+      "revenue_inr": 1138663.6,
+      "units_demanded": 4031,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 92,
+      "revenue_inr": 1160869.0,
+      "units_demanded": 4335,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 93,
+      "revenue_inr": 1584385.0,
+      "units_demanded": 5838,
+      "is_holiday_week": 1,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 94,
+      "revenue_inr": 1160993.55,
+      "units_demanded": 4451,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 95,
+      "revenue_inr": 1044568.7,
+      "units_demanded": 4192,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 96,
+      "revenue_inr": 2038702.85,
+      "units_demanded": 7804,
+      "is_holiday_week": 1,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 97,
+      "revenue_inr": 1181058.95,
+      "units_demanded": 4394,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 98,
+      "revenue_inr": 1159816.2,
+      "units_demanded": 4469,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    },
+    {
+      "week_num": 99,
+      "revenue_inr": 1151001.0,
+      "units_demanded": 4400,
+      "is_holiday_week": 0,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 100,
+      "revenue_inr": 1187098.4,
+      "units_demanded": 4498,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 101,
+      "revenue_inr": 1173247.6,
+      "units_demanded": 4399,
+      "is_holiday_week": 0,
+      "active_promo_count": 5
+    },
+    {
+      "week_num": 102,
+      "revenue_inr": 1133560.8,
+      "units_demanded": 4594,
+      "is_holiday_week": 0,
+      "active_promo_count": 6
+    },
+    {
+      "week_num": 103,
+      "revenue_inr": 1692549.2,
+      "units_demanded": 6272,
+      "is_holiday_week": 1,
+      "active_promo_count": 4
+    },
+    {
+      "week_num": 104,
+      "revenue_inr": 1258638.4,
+      "units_demanded": 4692,
+      "is_holiday_week": 0,
+      "active_promo_count": 3
+    }
+  ],
+  "business_insights": [
+    {
+      "id": "INSIGHT-01",
+      "title": "Severe Working Capital Lockup in High-Margin Overstocked SKUs",
+      "finding": "7 SKUs carry forward inventory exceeding 12 to 16 weeks of supply, trapping over \u20b928.5 Lakhs in stagnant working capital with significant risk of markdown degradation.",
+      "quantitative_metric": "7 SKUs > 12 WOS; Avg excess stock ratio = 3.2x reorder point; Capital locked = \u20b928,54,300.",
+      "business_impact": "Holding costs incur ~\u20b95.7 Lakhs annually at 20% carrying rate while risking terminal margin loss.",
+      "recommendation": "Initiate targeted 20-30% markdown liquidation promotions on SKU-GRO-005 and SKU-BEV-003 immediately to recover liquidity."
+    },
+    {
+      "id": "INSIGHT-02",
+      "title": "High Stockout Exposure on High-Velocity Staple Revenue Drivers",
+      "finding": "Top revenue generators (Sharbati Atta, Royal Basmati Rice, and Enzymatic Detergent) exhibit less than 1.5 weeks of forward supply against supplier lead times of 2 to 3 weeks.",
+      "quantitative_metric": "Potential lost sales estimated at \u20b914,80,000 across 7 critical stockout SKUs over next 4 weeks.",
+      "business_impact": "Unfilled customer orders trigger competitor brand switching, eroding customer lifetime value.",
+      "recommendation": "Trigger automated emergency replenishment POs today for the 7 'REORDER NOW' SKUs with expedited supplier freight."
+    },
+    {
+      "id": "INSIGHT-03",
+      "title": "Predictable Diwali & Summer Seasonality Generates 45-85% Demand Spikes",
+      "finding": "Calendar analysis demonstrates non-linear surges: Beverages experience a +35% summer surge (Weeks 18-24 & 70-76), while Confectionery/Snacks surge +85% during Festive Diwali weeks.",
+      "quantitative_metric": "Holiday & Diwali weeks deliver 1.85x average weekly volume with promo elasticity multiplier of 1.30x.",
+      "business_impact": "Static min-max inventory levels fail systematically during festive windows, causing catastrophic stockouts.",
+      "recommendation": "Deploy rolling dynamic safety stocks tied to the 8-week forward seasonal forecast rather than trailing static 30-day averages."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# DEMANDWISE – Python Dependencies
+# Primary Data Science & ML Stack
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Dashboard & Interactive Analytics
+streamlit>=1.32.0
+plotly>=5.18.0
+
+# Deployed Scoring Microservice (D6)
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0
